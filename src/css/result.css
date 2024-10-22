@@ -1,0 +1,55 @@
+.result-container {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 25px;
+    font-family: 'Poppins';
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.track-container {
+    display: flex;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid #eee;
+    margin: 10px auto;
+    padding: 5px;
+    justify-content: space-between;
+    width: 100%;
+    transition: width 0.1s ease;
+}
+
+.track-container:hover {
+    width: 102%;
+}
+
+.add-icon {
+    margin-left: auto;
+    align-self: center;
+    cursor: pointer;
+    color: #fff;
+    transition: color .25s ease, transform 0.5s ease;
+}
+
+.add-icon:hover {
+    color: rgb(114, 114, 114);
+    transform: rotate(90deg);
+}
+
+.artist-name {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.artist-title {
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+.box-text {
+    color: #fff;
+}
