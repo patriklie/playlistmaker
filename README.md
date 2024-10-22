@@ -26,7 +26,7 @@ Denne React-applikasjonen lar brukere logge på sin Spotify-konto, søke etter s
     ```
 2. Naviger til prosjektmappen og installer avhengighetene:
     ```bash
-    cd playlistmakerr
+    cd playlistmaker
     npm install
     ```
 3. Kjør applikasjonen:
