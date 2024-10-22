@@ -42,6 +42,9 @@ Denne React-applikasjonen lar brukere logge på sin Spotify-konto, søke etter s
 - `react-scripts`: 5.0.1
 - `web-vitals`: ^2.1.4
 
+## Skjermbilder av appen
+![Eksempel på playlist](img/Playlist_example.png)
+
 ## Fremtidige forbedringer
 
 - Legge til mer avansert feilbehandling for API-forespørsler.
