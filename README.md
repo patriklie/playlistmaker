@@ -1,38 +1,38 @@
 # Playlist Maker
 
-Denne React-applikasjonen lar brukere logge på sin Spotify-konto, søke etter sanger, og lage nye spillelister som lagres på deres Spotify-bruker.
+This React application allows users to log in to their Spotify account, search for songs, and create new playlists that are saved directly to their Spotify account.
 
-## Funksjonalitet
+## Functionality
 
-- **Logg inn på Spotify:** Brukere kan autentisere med sin Spotify-konto.
-- **Søk etter sanger:** Søke etter favorittlåter fra Spotifys database.
-- **Lag spillelister:** Opprett nye spillelister og lagre dem direkte på din Spotify-bruker.
-- **Brukervennlig grensesnitt:** Enkel navigasjon med et rent og responsivt design.
-- **Spotify API** Profilbilde og navn på innlogget bruker hentet fra Spotify API.
+- **Log in to Spotify:** Users can authenticate using their Spotify account.
+- **Search for songs:** Search for favorite tracks from Spotify's database.
+- **Create playlists:** Create new playlists and save them directly to your Spotify account.
+- **User-friendly interface:** Easy navigation with a clean and responsive design.
+- **Spotify API** Profile picture and name of the logged-in user fetched from the Spotify API.
 
-## Teknologier brukt
+## Technologies Used
 
-- **React:** Grunnsteinen i appens frontend.
-- **Axios:** Brukes til å håndtere HTTP-forespørsler mot Spotify API.
-- **Spotify API:** For autentisering, søkefunksjonalitet, og oppretting av spillelister.
+- **React:** The foundation of the app's frontend.
+- **Axios:** Used to handle HTTP requests to the Spotify API.
+- **Spotify API:** For authentication, search functionality, and playlist creation.
 
-## Hvordan kjøre prosjektet
+## How to Run the Project
 
-1. Klon dette repoet:
+1. Clone this repository:
     ```bash
     git clone https://github.com/patriklie/playlistmaker.git
     ```
-2. Naviger til prosjektmappen og installer avhengighetene:
+2. Navigate to the project folder and install the dependencies:
     ```bash
     cd playlistmaker
     npm install
     ```
-3. Kjør applikasjonen:
+3. Run the application:
     ```bash
     npm start
     ```
 
-## Avhengigheter
+## Dependencies
 
 - `axios`: ^1.6.2
 - `react`: ^18.2.0
@@ -40,10 +40,10 @@ Denne React-applikasjonen lar brukere logge på sin Spotify-konto, søke etter s
 - `react-scripts`: 5.0.1
 - `web-vitals`: ^2.1.4
 
-## Skjermbilde av appen
+## Screenshot of the App
 ![Eksempel på playlist](img/Playlist_example.png)
 
-## Fremtidige forbedringer
+## Future Improvements
 
-- Legge til mer avansert feilbehandling for API-forespørsler.
-- Implementere funksjonalitet for å redigere og slette spillelister.
+- Add more advanced error handling for API requests.
+- Implement functionality to edit and delete playlists.
