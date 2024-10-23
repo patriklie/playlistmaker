@@ -15,8 +15,6 @@ Denne React-applikasjonen lar brukere logge på sin Spotify-konto, søke etter s
 - **React:** Grunnsteinen i appens frontend.
 - **Axios:** Brukes til å håndtere HTTP-forespørsler mot Spotify API.
 - **Spotify API:** For autentisering, søkefunksjonalitet, og oppretting av spillelister.
-- **React-scripts:** Forenkler konfigurasjonen og kjøringen av React-applikasjonen.
-- **Web Vitals:** For å overvåke og optimalisere appens ytelse.
 
 ## Hvordan kjøre prosjektet
 
